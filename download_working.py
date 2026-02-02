@@ -37,6 +37,7 @@ def check_kaggle_auth():
     print("3. Place it at: C:\\Users\\admin\\.kaggle\\kaggle.json")
     return False
 
+#Funtion to download dataset
 def download_simple_dataset(dataset_name, kaggle_path):
     """Download without pandas dependency"""
     print(f"\n📥 Downloading: {dataset_name}")
