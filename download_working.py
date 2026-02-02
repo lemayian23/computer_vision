@@ -6,7 +6,7 @@ print("="*60)
 print("📥 WORKING DATASET DOWNLOADER")
 print("="*60)
 
-# WORKING datasets (tested and confirmed):
+# Dataset that need testing:
 DATASETS = {
     "Face_Mask_Detection": "shivamkushwaha/face-mask-detection",
     "CIFAR_10": "ycam004/cifar10",  # Alternative CIFAR-10
